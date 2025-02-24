@@ -85,12 +85,12 @@
           </b-col>
           <b-col md="6">
             <div class="card p-6 mb-6">
-              <h3 class="text-xl font-semibold mb-4">Education</h3>
+              <h3 class="text-xl font-semibold mb-4 text-gray-100">Education</h3>
               <h4 class="text-lg font-semibold text-blue-400">{{ education.university }}</h4>
               <p class="text-gray-400">{{ education.degree }} | {{ education.period }}</p>
             </div>
             <div class="card p-6">
-              <h3 class="text-xl font-semibold mb-4">Soft Skills</h3>
+              <h3 class="text-xl font-semibold mb-4 text-gray-100">Soft Skills</h3>
               <div class="grid grid-cols-2 gap-4">
                 <div v-for="skill in softSkills" 
                      :key="skill.name"
@@ -289,7 +289,7 @@
                 </h4>
                 <div class="flex gap-4">
                   <!-- GitHub -->
-                  <a href="https://github.com/AliKhalil28" 
+                  <a href="https://github.com/ls047" 
                      target="_blank"
                      rel="noopener noreferrer"
                      class="social-link bg-gray-800/50 hover:bg-gray-700/50">
@@ -299,7 +299,7 @@
                   </a>
 
                   <!-- LinkedIn -->
-                  <a href="https://www.linkedin.com/in/ali-khalil-al-ebadi-b2b2b4291/" 
+                  <a href="https://www.linkedin.com/in/ali-alibadi-33b303286/" 
                      target="_blank"
                      rel="noopener noreferrer"
                      class="social-link bg-gray-800/50 hover:bg-gray-700/50">
@@ -309,7 +309,7 @@
                   </a>
 
                   <!-- Telegram -->
-                  <a href="https://t.me/AliKhalil28" 
+                  <a href="https://t.me/Ls047me" 
                      target="_blank"
                      rel="noopener noreferrer"
                      class="social-link bg-gray-800/50 hover:bg-gray-700/50">
@@ -444,12 +444,11 @@ const skills = ref({
   'Responsive Design': 85,
   'Frontend Architecture': 80,
   'Vue Router': 85,
-  'Vuex/Pinia': 80,
+  'Pinia': 80,
   'Bootstrap Vue': 85,
   'Nuxt.js': 75,
   'Component Design': 85,
   'Git & GitHub': 85,
-  'Chrome DevTools': 85,
   'npm/yarn': 80,
 })
 
