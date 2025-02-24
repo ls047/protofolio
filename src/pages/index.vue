@@ -750,7 +750,8 @@ onMounted(() => {
   .input-field {
     @apply w-full px-4 py-3 bg-gray-800/30 rounded-lg border border-gray-700/50 
            focus:border-blue-500/50 focus:ring-2 focus:ring-blue-500/20 
-           focus:outline-none transition-all duration-300 text-gray-200;
+           focus:outline-none transition-all duration-300 text-gray-200
+           placeholder-gray-300 focus:placeholder-gray-600;
   }
 
   /* Section titles */
