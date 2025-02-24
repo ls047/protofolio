@@ -470,7 +470,7 @@ const projects = ref([
       "Responsive design for all devices",
       "Beautiful UI with smooth animations"
     ],
-    image: "/src/assets/images/weatherino.png",
+    image: "/weatherino.png",
     demo: "https://weatherino-plum.vercel.app"
   },
   {
@@ -488,7 +488,7 @@ const projects = ref([
       "Responsive across all devices",
       "Performance optimized"
     ],
-    image: "/src/assets/images/supernova-iq.com.png",
+    image: "/supernova-iq.com.png",
     demo: "https://supernova-iq.com"
   },
   {
@@ -506,7 +506,7 @@ const projects = ref([
       "Responsive design",
       "User-friendly interface"
     ],
-    image: "/src/assets/images/get-a-job.png",
+    image: "/get-a-job.png",
     demo: "https://get-job-tan.vercel.app"
   }
 ])
